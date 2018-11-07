@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Antonio Perkins</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="static/css/football.css">
+</head>
+<body>
+
+<!--nav bar-->
+<nav class="sticky">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="glyphicon glyphicon-triangle-bottom"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Antonio Perkins jr.</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="football.html">About Me</a></li>
+        <li><a href="exp.html">Experience</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScUjf0N3vWA12JjfWkJbimBYBJZJlX1gSAC8KxNEx7Pu5_Hxw/viewform?usp=sf_link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</nav>
+
+
+
+<br><br><br>
+
+
+<div class="col-lg-6 col-sm-12 left">
+<div>
+</div>
+</style>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 400px; margin: 0 auto">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="static/img/football2.png" alt="Football Picture" style="width:100%; margin-top:7%;">
+      </div>
+
+      <div class="item">
+        <img src="static/img/football4.png" alt="Football Picture" style="width:100%; margin-top:7%;">
+      </div>
+
+      <div class="item">
+        <img src="static/img/football5.png" alt="Football Picture" style="width:100%; margin-top:7%;">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+
+<div class="col-lg-6 col-sm-12 right">
+<section class="c">
+I have been playing football for 5 years and I love it.
+I play for LC bird and play DE. I think that football has taught me a lot of skills.
+I think the biggest skill I learned was determination to be the best I want to learn from anyone and anything to be the best.
+Football is one of the biggest thing in my life and I share the skills I learn into other aspects of my life. In computer science I know that playing football helped me stay determined to always do the best I know I can.
+</section>
+</div>
+
+<script>
+<!--navbar-->
+$(document).ready(function() {
+  var $navbar = $("#mNavbar");
+
+  AdjustHeader(); // Incase the user loads the page from halfway down (or something);
+  $(window).scroll(function() {
+      AdjustHeader();
+  });
+
+  function AdjustHeader(){
+    if ($(window).scrollTop() > 60) {
+      if (!$navbar.hasClass("navbar-fixed-top")) {
+        $navbar.addClass("navbar-fixed-top");
+      }
+    } else {
+      $navbar.removeClass("navbar-fixed-top");
+    }
+  }
+});
+</script>
+
+</body>
+</html>

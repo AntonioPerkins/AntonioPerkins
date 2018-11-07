@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MaxxPower</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/FAQ.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125904554-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125904554-1');
+</script>
+</head>
+<body>
+ <nav class="navbar navbar-inverse">
+ <div class="container-fluid">
+
+   <div class="navbar-header">
+   <li><a class="navbar-brand" href="index.html">MaxxPower</a></li>
+   </div>
+   <ul class="nav navbar-nav">
+    <li><a href="#company">Company FAQ's</a></li>
+    <li><a href="#outages">Outage FAQ's</a></li>
+       </ul>
+    </div>
+     </nav>
+
+     <a href="home.html"><button type="button" class="btn">Back To Profolio</button></a>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center" id =company>
+    <h1>Company FAQ's</h1>
+    <h2>(Company Frequently asked questions)</h2>
+
+    <h3>1.How do I get in touch with your company?</h3>
+    <h4>Answer: You can contact us by Phone:721-989-5555 or Email: MaxxPower@gmail.com</h4>
+
+    <h3>2.Where are is Maxx Power’s HQ?</h3>
+    <h4>Answer: Since 1912 we have had our first location which has gone under many renovations since but is still our headquarters.</h4>
+
+    <h3>3.Who owns Maxx Power?</h3>
+    <h4>Answer: Really no one owns Maxx Power. The People own Maxx Power, they are our number 1 priority. </h4>
+
+    <h3>4.Can I invest in Maxx Power?</h3>
+    <h4>Answer: Yes, on the NYSE we are under as MXP.</h4>
+
+    <h3>5.Who is the CEO of Maxx Power?</h3>
+    <h4>Answer: Feel free to look back at the Company Organization Chart on the homepage, but Kim Mahan is our fearless leader.</h4>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" id =outages>
+  <h1>Outage FAQ's</h1>
+        <h2>(Outage Frequently asked questions)</h2>
+        <h3>1.Why does my neighbor have power and I don’t after a storm?</h3>
+        <h4>Answer: Your neighbor could have a seperate main powerline going into their home. Your main powerline could be down while your neighbor’s is unaffected. </h4>
+
+        <h3>2.Will there ever be downtime when performing work on my lines?</h3>
+        <h4>Answer: If we are ever performing work that requires the line into your house to be shut off until work is complete we will notify you the day prior to so you can make arrangements to work around it.</h4>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-6 text-center">
+  <p>©MAXX Power</p>
+</footer>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+</body>
+</html>

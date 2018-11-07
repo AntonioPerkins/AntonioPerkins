@@ -1,0 +1,122 @@
+body{
+background-color:#1f2535;
+color:white;
+}
+
+}
+
+.row{
+  position: absolute;
+  z-index: -1;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #ae4819;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0%;
+  font-weight: bold;
+  border: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #052e4c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar-inverse .navbar-brand
+{
+  color:#052e4c;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+  color:#052e4c;
+
+}
+
+
+
+::-webkit-scrollbar {
+display: none;
+}
+section{
+    font-size: 30px;
+    text-align: justify; /* For Edge */
+    -moz-text-align-last: center; /* For Firefox prior 58.0 */
+    text-align-last: center;
+    margin-right: 15%;
+  }
+
+a{
+  color: #9d9d9d;
+}
+
+
+
+.carousel {
+  z-index: -1;
+}
+
+
+  .intro{
+    height:100%
+  }
+
+  .left{
+    z-index: -1;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    height : 100%;
+    color : #FFF;
+
+  }
+
+    ::-webkit-scrollbar {
+    display: none;
+}
+
+
+  }
+  .right{
+    z-index: -1;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    height : 100%;
+    width: 50%;
+  }
+
+  @media (max-width: 1200px) {
+    .left{
+      height:70%;
+    }
+    .right{
+      height:50%;
+
+    margin: 20px;
+
+    }
+
+    section{
+        font-size: 15px;
+        text-align: justify; /* For Edge */
+        -moz-text-align-last: center; /* For Firefox prior 58.0 */
+        text-align-last: center;
+        letter-spacing: 1px;
+        margin-right: 0%;
+      }
+
+    ::-webkit-scrollbar {
+    display: none;
+}
